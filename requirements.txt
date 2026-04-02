@@ -1,0 +1,17 @@
+# Scraper
+telethon>=1.36
+python-dotenv>=1.0
+
+# ML (local / NUC inference)
+torch>=2.2
+torchvision>=0.17
+Pillow>=10.0
+
+# Training (Colab already has these, but listed for completeness)
+pandas>=2.1
+scikit-learn>=1.4
+matplotlib>=3.8
+numpy>=1.26
+
+# Optional: OpenVINO for Intel NUC acceleration
+# openvino>=2024.0
